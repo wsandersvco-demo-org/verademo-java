@@ -16,5 +16,9 @@ veracode_static_scan:
       - default_branch
   create_issue: true
   analysis_on_platform: true
+  policy: Grace Period
   use_custom_workflow: register-build
   artifact_file: maven-build
+
+veracode_iac_secrets_scan:
+  policy: Grace Period
