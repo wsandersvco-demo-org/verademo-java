@@ -17,8 +17,8 @@ veracode_static_scan:
   create_issue: true
   analysis_on_platform: true
   policy: Veracode Recommended Very Low
-  use_custom_workflow: register-build
-  artifact_file: maven-build
+  # use_custom_workflow: register-build
+  # artifact_file: maven-build
 
 veracode_iac_secrets_scan:
   policy: Grace Period
