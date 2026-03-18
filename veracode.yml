@@ -16,7 +16,7 @@ veracode_static_scan:
       - default_branch
   create_issue: true
   analysis_on_platform: true
-  policy: Grace Period
+  policy: Veracode Recommended Very Low
   use_custom_workflow: register-build
   artifact_file: maven-build
 
