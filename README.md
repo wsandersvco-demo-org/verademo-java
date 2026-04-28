@@ -1,6 +1,6 @@
 # VeraDemo - Blab-a-Gag
 
-**Version**: 1.0.1
+**Version**: 1.0.2
 
 ### :information_source: Notice
 
