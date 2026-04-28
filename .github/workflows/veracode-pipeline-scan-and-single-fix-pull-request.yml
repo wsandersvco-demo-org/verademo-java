@@ -5,6 +5,11 @@ on:
     branches:
       - 'fix'
 
+permissions:
+  pull-requests: write  # Required for PR comments
+  issues: write         # Often required as PRs are treated as issues in the API
+  contents: read        # Usually required to read the repo code
+
 env:
   ARTIFACT_NAME: maven-build
   ARTIFACT_PATH: app/target/*.war
