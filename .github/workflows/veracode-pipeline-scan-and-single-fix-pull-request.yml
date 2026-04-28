@@ -89,7 +89,7 @@ jobs:
         id: convert
         uses: Veracode/veracode-fix@v1.0.4
         with:
-          access_token: ${{ secrets.VERACODE_FIX_PAT }}
+          access_token: ${{ github.token }}
           inputFile: filtered_results.json
           vid: ${{ secrets.VERACODE_API_ID }}
           vkey: ${{ secrets.VERACODE_API_KEY }}
