@@ -5,6 +5,11 @@ on:
     - cron: '0 4 * * 3'
   workflow_dispatch: 
 
+permissions: 
+  contents: read
+  pull-requests: write
+  issues: write
+
 jobs:
   veracode_sca_task:
     runs-on: ubuntu-latest
